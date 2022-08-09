@@ -1,0 +1,482 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a:active,a{
+    text-decoration: none;
+    color: #FFFFFF;;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 4000px;
+
+    background: #FFFFFF;
+}
+
+.head{
+    position: absolute;
+    width: 100%;
+    height: 742px;
+    left: 0px;
+    top: 0px;
+
+    background: url(box1.jpg);
+}
+
+#THOneTHTwo{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 82px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+#THOne{
+    position: absolute;
+    width: 696px;
+    height: 88px;
+    left: 257px;
+    top: 155px;
+}
+
+#THTwo{
+    position: absolute;
+    width: 467px;
+    height: 82px;
+    left: 257px;
+    top: 209px;
+}
+
+#THThree{
+    position: absolute;
+    width: 355px;
+    height: 76px;
+    left: 257px;
+    top: 295px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+.Bottom{
+    position: absolute;
+    width: 286px;
+    height: 83.34px;
+    left: 254px;
+    top: 386px;
+
+    background: #ED870F;
+    border-radius: 45px;
+}
+
+#BottomText{
+    position: absolute;
+    width: 131px;
+    height: 33.57px;
+    left: 331px;
+    top: 410.31px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.OneBox{
+    position: absolute;
+    width: 100%;
+    height: 668px;
+    left: 0px;
+    top: 742px;
+
+    background: #FFFFFF;
+}
+
+#OBFrame{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 953px;
+    height: 373px;
+    left: 372px;
+    top: 148px;
+
+    border: 4px solid #ED870F;
+}
+
+.OneBox h2{
+    position: absolute;
+    width: 587px;
+    height: 74px;
+    left: 141px;
+    top: 150px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 75px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+.OneBox p{
+    position: absolute;
+    width: 903px;
+    height: 259px;
+    left: 397px;
+    top: 250px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #000000;
+}
+
+.TwoBox{
+    position: absolute;
+    width: 100%;
+    height: 668px;
+    left: 0px;
+    top: 1410px;
+
+    background: #1F1F1F;
+}
+
+.TwoBox h2{
+    position: absolute;
+    width: 996px;
+    height: 75px;
+    left: 244px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 75px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+#TBFrame{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 491px;
+    height: 502px;
+    left: 229px;
+    top: 126px;
+
+    border: 4px solid #ED870F;
+}
+
+#TBFrameTwo{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 570px;
+    height: 240px;
+    left: 773px;
+    top: 150px;
+
+    border: 4px solid #FFFFFF;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.TwoBox p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+#TBOne{
+    position: absolute;
+    width: 457px;
+    height: 163px;
+    left: 244px;
+    top: 171px;
+}
+
+#TBTwo{
+    position: absolute;
+    width: 536px;
+    height: 143px;
+    left: 807px;
+    top: 171px;
+}
+
+#TBThree{
+    position: absolute;
+    width: 1099px;
+    height: 163px;
+    left: 244px;
+    top: 427px;
+}
+
+/*--------------------Часть 2---------------------------------*/
+.ThreeBox{
+    position: absolute;
+    width: 100%;
+    height: 668px;
+    left: 0px;
+    top: 2132px;
+    background: #FFFFFF;
+}
+
+.ThreeBox p{
+    padding: 10px 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    background: #F0F0F0;
+    color: #000000;
+}
+
+.ThreeBox h2{
+    position: absolute;
+    width: 237px;
+    height: 75px;
+    left: 631px;
+    top: -30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 75px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal
+}
+
+#ThBImg{
+    position: absolute;
+    width: 317px;
+    height: 476px;
+    left: 133px;
+    top: 100px;
+
+    background: url(2.png);
+}
+
+#ThOne{
+    position: absolute;
+    width: 459px;
+    height: 218px;
+    left: 483px;
+    top: 100px;
+}
+
+#ThTwo{
+    position: absolute;
+    width: 349px;
+    height: 206px;
+    left: 994px;
+    top: 100px;
+}
+
+#ThThree{
+    position: absolute;
+    width: 468px;
+    height: 206px;
+    left: 480px;
+    top: 360px;
+}
+
+#THFrame{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 409px;
+    height: 422px;
+    left: 966px;
+    top: 85px;
+
+    border: 4px solid #ED870F;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.FoBox{
+    position: absolute;
+    width: 100%;
+    height: 668px;
+    left: 0px;
+    top: 2746px;
+
+    background: #1F1F1F;
+}
+
+.FoBox h2{
+    position: absolute;
+    width: 691px;
+    height: 75px;
+    left: 404px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 75px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.FoBox #CardOne{
+    position: absolute;
+    width: 229px;
+    height: 431px;
+    left: 133px;
+    top: 157px;
+
+    background: url(Карточка1.png);
+}
+
+.FoBox #CardTwo{
+    position: absolute;
+    width: 229px;
+    height: 431px;
+    left: 372px;
+    top: 157px;
+
+    background: url(Карточка2.png);
+}
+
+.FoBox #CardThree{
+    position: absolute;
+    width: 263.82px;
+    height: 496px;
+    left: 611px;
+    top: 124px;
+
+    background: url(Карточка3.png);
+}
+
+.FoBox #CardFour{
+    position: absolute;
+    width: 229px;
+    height: 431px;
+    left: 884.82px;
+    top: 157px;
+
+    background: url(Карточка4.png);
+}
+
+.FoBox #CardFive{
+    position: absolute;
+    width: 229px;
+    height: 431px;
+    left: 1123.82px;
+    top: 157px;
+
+    background: url(Карточка5.png);
+}
+
+.FiBox{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    left: 0px;
+    top: 3414px;
+
+    background: #FFFFFF;
+}
+
+.FiBox h2{
+    position: absolute;
+    width: 631px;
+    height: 75px;
+    left: 428px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 75px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+
+}
+
+.FiBox #map{
+    position: absolute;
+    width: 1185px;
+    height: 474px;
+    left: 133px;
+    top: 158px;
+
+    background: url(map.png);
+}
+
+.FiBox p{
+    position: absolute;
+    width: 293px;
+    height: 167px;
+    left: 765px;
+    top: 260px;
+    padding: 10px 10px;
+
+    background: #1F1F1F;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.FiBox #Frame{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 415px;
+    height: 586px;
+    left: 719px;
+    top: 198px;
+
+    border: 4px solid #ED870F;
+}
